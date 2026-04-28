@@ -8,7 +8,6 @@
  * @author ASUS
  */
 
-
 import java.io.*;
 public class FileHandler {
     public void saveToFile(Object obj, String fileName) {

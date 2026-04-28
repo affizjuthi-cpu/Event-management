@@ -8,6 +8,7 @@
  * @author ASUS
  */
 
+
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -18,12 +19,12 @@ public class HomeView extends VBox {
 
     public HomeView(Stage stage) {
 
-        Label title = new Label("WELCOME TO EVENT MANAGEMENT SYSTEM");
+        Label title = new Label("Welcome To The Website. ");
 
         TextField input = new TextField();
         input.setPromptText("Enter your name");
 
-        Button btn = new Button("Go to Dashboard");
+        Button btn = new Button("Click Here");
 
         btn.setOnAction((var e) -> {
             DashboardView dashboard = new DashboardView(stage);
@@ -35,4 +36,5 @@ public class HomeView extends VBox {
         this.setAlignment(Pos.CENTER);
         this.setSpacing(20);
     }
+
 }
